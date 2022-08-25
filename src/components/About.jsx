@@ -17,7 +17,7 @@ const About = () => {
                                 <li>I am the current Director of Marketing for McMaster's Computer Science Society</li>
                                 <li>Some of my hobbies include working out & playing sports!</li>
                             </ul>
-                            <p className='lg:text-2xl'>Questions? Contact me at <a className='font-bold underline decoration-gray-500 underline-offset-[7px]' href="mailto:dev.sohaibahmed@gmail.com" target="_blank" rel="noreferrer">dev.sohaibahmed@gmail.com</a></p>
+                            <p className='lg:text-2xl'>Questions? Contact me at <a className='font-bold underline decoration-gray-500 underline-offset-[7px] hover:text-gray-500 transition-all duration-300' href="mailto:dev.sohaibahmed@gmail.com" target="_blank" rel="noreferrer">dev.sohaibahmed@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
