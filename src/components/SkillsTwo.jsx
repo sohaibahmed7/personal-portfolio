@@ -1,3 +1,4 @@
+// Importing general skills icons
 import { skillsTwo } from "../data"
 
 const SkillsTwo = () => {
@@ -6,6 +7,7 @@ const SkillsTwo = () => {
             <div className="container mx-auto">
                 <h1 className="text-xl lg:text-3xl text-center mb-6">Other technologies I have worked with...</h1>
                 <div className="grid grid-cols-6 md:grid-flow-row">
+                    {/* Mapping throuh the array of icons and rendering to the screen */}
                     {skillsTwo.map((skill, index) => {
                         return (
                             <div className="flex items-center justify-center" key={index}>

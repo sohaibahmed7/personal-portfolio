@@ -1,3 +1,4 @@
+// Importing components
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -6,6 +7,7 @@ import SkillsTwo  from './components/SkillsTwo';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
+// Importing CSS file
 import './App.css';
 
 const App = () => {

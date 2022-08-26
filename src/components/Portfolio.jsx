@@ -1,3 +1,4 @@
+// Importing component to render all projects to the page
 import Projects from '../components/Projects'
 
 const Portfolio = () => {
@@ -8,6 +9,7 @@ const Portfolio = () => {
                 <h2 className='text-3xl lg:text-5xl font-medium lg:font-extrabold mb-3'>Some of my projects 👨‍💻</h2>
                 <p className='md:text-xl md:mx-auto mb-4 lg:mb-8 max-w-[520px]'>Click on any of these projects to view their code!</p>
             </div>
+            {/* Renders the projects to the screen */}
             <Projects />
         </div>
     </section>

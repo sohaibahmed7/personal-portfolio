@@ -41,6 +41,7 @@ export const navigation = [
     },
 ]
 
+// Social media icons
 export const social = [
     {
         icon: <BsLinkedin />,
@@ -52,6 +53,7 @@ export const social = [
     },
 ]
 
+// Web skills
 export const skillsOne = [
     {
         image: SkillIMG1
@@ -73,6 +75,7 @@ export const skillsOne = [
     }
 ]
 
+// General skills
 export const skillsTwo = [
     {
         image: SkillIMG7
@@ -94,6 +97,7 @@ export const skillsTwo = [
     }
 ]
 
+// Project information
 export const projectsData = [
     {
         id: 1,

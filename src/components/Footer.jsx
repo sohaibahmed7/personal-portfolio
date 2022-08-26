@@ -1,3 +1,4 @@
+// Importing social icons
 import { social } from '../data'
 
 const Footer = () => {
@@ -6,6 +7,7 @@ const Footer = () => {
         <div className="container mx-auto">
             <div className="flex flex-col md:flex-row space-y-6 md-space-y-0 items-center justify-between">
                 <div className="text-3xl flex space-x-6 items-center justify-center ">
+                    {/* Mapping through the social icons and rendering to the page */}
                     {social.map((item, index) => {
                         return (
                             <a className='hover:text-gray-500 transition-all duration-300' href={item.href} key={index}>
