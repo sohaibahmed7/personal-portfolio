@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="flex items-center h-full pt-8">
               <div className="flex-1 flex flex-col items-center lg:items-start">
                 <p className='text-xl lg:text-2xl mb-[22px]'>Hello, my name is Sohaib Ahmed 👋</p>
-                <h1 className=' text-[30px] leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>Aspiring web developer</h1>
+                <h1 className=' text-[30px] leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>Aspiring software developer / analyst</h1>
                 <p className=' pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>Studying Computer Science at McMaster University</p>
                 {/* Buttons to scroll to projects and download resume */}
                 <div className='flex space-x-4'>
