@@ -6,8 +6,8 @@ const About = () => {
     <section className="py-12 lg:py-24 bg-gray-800" id='about'>
         <div className="container mx-auto">
             <div className="flex flex-col xl:flex-row gap-24">
-                <img className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 md:rounded-xl" src={Image} alt="" />
-                <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+                <img className="object-cover h-full w-[300px] lg:w-[566px] mx-auto md:rounded-xl" src={Image} alt="" />
+                <div className="flex flex-col items-center text-center lg:items-start lg:text-left mx-auto">
                     <div className="flex flex-col">
                         <h2 className='text-3xl lg:text-5xl font-medium lg:font-extrabold mb-3'>About me 👀</h2>
                         <div className='mb-4'>

@@ -4,9 +4,9 @@ import { social } from '../data'
 const Footer = () => {
   return (
     <footer className='bg-gray-900 py-6'>
-        <div className="container mx-auto">
+        <div className="container mx-auto md:px-5">
             <div className="flex flex-col md:flex-row space-y-6 md-space-y-0 items-center justify-between">
-                <div className="text-3xl flex space-x-6 items-center justify-center ">
+                <div className="text-3xl flex space-x-6 items-center justify-center">
                     {/* Mapping through the social icons and rendering to the page */}
                     {social.map((item, index) => {
                         return (
